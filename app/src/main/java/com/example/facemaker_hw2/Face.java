@@ -1,7 +1,7 @@
 /*
  *   @author: Caitlin Ching
  *   Face class - draws facial features like head, eyes, mouth, and nose
- *   Program should run horizontally
+ *   Tablet should run vertically
  *   CS301-A
  *   03/03/21
  */

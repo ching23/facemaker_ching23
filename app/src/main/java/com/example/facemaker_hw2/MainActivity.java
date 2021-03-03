@@ -2,7 +2,7 @@
  *   @author: Caitlin Ching
  *   Main activity class - implements all listeners from face controller
  *     and id's from activity main
- *   Program should run horizontally
+ *   Tablet should run vertically
  *   CS301-A
  *   03/03/21
  */

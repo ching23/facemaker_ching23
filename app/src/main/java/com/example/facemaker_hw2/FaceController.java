@@ -1,7 +1,7 @@
 /*
  *   @author: Caitlin Ching
  *   Face controller class - implements usages for buttons, seekbar, and spinner
- *   Program should run horizontally
+ *   Tablet should run vertically
  *   CS301-A
  *   03/03/21
  */
