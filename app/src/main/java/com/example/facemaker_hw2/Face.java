@@ -226,10 +226,10 @@ public class Face extends SurfaceView {
             // party hat
             case 2:
                 Path path = new Path();
-                path.moveTo(hairX / 6 + 400, hairY / 6);
-                path.lineTo(hairX / 6 + 630, hairY / 6 - 250);
-                path.lineTo(hairX / 6 + 860, hairY / 6);
-                path.lineTo(hairX / 6 - 700, hairY / 6);
+                path.moveTo(hairX / 6 + 220, hairY / 6);
+                path.lineTo(hairX / 6 + 430, hairY / 6 - 330);
+                path.lineTo(hairX / 6 + 640, hairY / 6);
+                path.lineTo(hairX / 6 - 500, hairY / 6);
                 canvas.drawPath(path, finalHairColor);
         }
     }
@@ -273,16 +273,16 @@ public class Face extends SurfaceView {
         }
 
         Path path = new Path();
-        path.addCircle(mouthX / 5, mouthY, radius, Path.Direction.CW);
+        path.addCircle(mouthX / 3, mouthY / 3, radius, Path.Direction.CW);
 
         float cx, cy;
-        final RectF oval = new RectF();
+        final RectF mouth = new RectF();
 
-        cx = mouthX / 2 + mouthY / 10;
-        cy = mouthY / 2 + mouthY / 20;
+        cx = mouthX / 2;
+        cy = mouthY / 2 + mouthY / 13;
 
-        oval.set(cx - radius, cy - radius,
+        mouth.set(cx - radius, cy - radius,
                 cx + radius, cy + radius);
-        canvas.drawArc(oval, 20, 90, false, mouthPaint);
+        canvas.drawArc(mouth, 30, 120, false, mouthPaint);
     }
 }
