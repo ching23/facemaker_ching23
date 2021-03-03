@@ -29,7 +29,7 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
 
         /**
          External Citation
-         Date: 28 February 2021
+         Date: 01 March 2021
          Problem: Didn't know how to use a spinner and switch between them
 
          Resource:
@@ -58,7 +58,7 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
 
         /**
          External Citation
-         Date: 28 February 2021
+         Date: 02 March 2021
          Problem: Didn't know how to switch between multiple seekbars
 
          Resource:
@@ -84,12 +84,12 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
     }
 
 
-    //radio button and random button
+    // on Click for radio and random button
     public void onClick(View view) {
 
         /**
          External Citation
-         Date: 28 February 2021
+         Date: 02 March 2021
          Problem: Didn't know how to switch from multiple buttons
 
          Resource:
@@ -118,7 +118,7 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
 
                 /**
                  External Citation
-                 Date: 28 February 2021
+                 Date: 02 March 2021
                  Problem: Didn't know how to call from main activity
 
                  Resource:
@@ -126,7 +126,7 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
                  Solution: I used the example code from this post
                  */
 
-                //sets corresponding seek bar to r/g/b hair color value
+                // sets seekbars to the red, blue, and green color value
                 MainActivity.getInstance().redSeekBar.setProgress(red);
                 MainActivity.getInstance().greenSeekBar.setProgress(green);
                 MainActivity.getInstance().blueSeekBar.setProgress(blue);
@@ -146,6 +146,7 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
                 int greenEyes = Color.green(myFace.finalEyeColor.getColor());
                 int blueEyes = Color.blue(myFace.finalEyeColor.getColor());
 
+                // sets seekbars to the red, blue, and green color value
                 MainActivity.getInstance().redSeekBar.setProgress(redEyes);
                 MainActivity.getInstance().greenSeekBar.setProgress(greenEyes);
                 MainActivity.getInstance().blueSeekBar.setProgress(blueEyes);
@@ -165,6 +166,7 @@ public class FaceController extends Activity implements AdapterView.OnItemSelect
                 int greenSkin = Color.green(myFace.finalSkinColor.getColor());
                 int blueSkin = Color.blue(myFace.finalSkinColor.getColor());
 
+                // sets seekbars to the red, blue, and green color value
                 MainActivity.getInstance().redSeekBar.setProgress(redSkin);
                 MainActivity.getInstance().greenSeekBar.setProgress(greenSkin);
                 MainActivity.getInstance().blueSeekBar.setProgress(blueSkin);

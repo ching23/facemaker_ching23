@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          External Citation
-         Date: 27 February 2021
+         Date: 28 February 2021
          Problem: Didn't not know how to implement spinner widget
 
          Resource:
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      External Citation
-     Date: 27 February 2021
+     Date: 28 February 2021
      Problem: Had problems returning instance
 
      Resource:

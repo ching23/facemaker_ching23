@@ -255,7 +255,7 @@ public class Face extends SurfaceView {
 
         /**
          External Citation
-         Date: 27 February 2021
+         Date: 01 March 2021
          Problem: Didn't know how to draw a half circle
 
          Resource:
